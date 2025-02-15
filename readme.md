@@ -1,62 +1,47 @@
+<h1>📝 To-Do List in C++</h1>
 
-
-<h1>📌 Task Manager in C++</h1>
-
-<h2>📝 Project Description</h2>
-<p>This is a <strong>simple Task Manager application</strong> built in C++ that allows users to <em>add, view, mark as complete, and delete tasks</em> efficiently. It provides a <strong>menu-driven interface</strong> for easy task management.</p>
+<p>A simple console-based <strong>To-Do List</strong> application built using <strong>C++</strong>. This program allows users to add, view, complete, and delete tasks efficiently.</p>
 
 <h2>🚀 Features</h2>
 <ul>
-    <li>✅ Add new tasks</li>
-    <li>✅ Display the list of tasks</li>
-    <li>✅ Mark tasks as completed</li>
-    <li>✅ Delete tasks</li>
-    <li>✅ User-friendly menu-driven interface</li>
+  <li>✅ <strong>Add new tasks</strong> with descriptions</li>
+  <li>📜 <strong>Display all tasks</strong> with status (Completed/Pending)</li>
+  <li>✔️ <strong>Mark tasks as completed</strong></li>
+  <li>❌ <strong>Delete tasks</strong> from the list</li>
+  <li>🔄 <strong>User-friendly menu-driven interface</strong></li>
 </ul>
+
+<h2>📌 How to Run</h2>
+<ol>
+  <li>Clone the repository:</li>
+  <pre><code>git clone https://github.com/Mayank-tech69/to-do-list.git
+cd to-do-list</code></pre>
+  <li>Compile the program:</li>
+  <pre><code>g++ todo_list.cpp -o todo_list</code></pre>
+  <li>Run the executable:</li>
+  <pre><code>./todo_list</code></pre>
+</ol>
+
+<h2>🖥️ Usage</h2>
+<ul>
+  <li>Enter a <strong>new task</strong> with a description.</li>
+  <li>View all tasks and check their <strong>status</strong>.</li>
+  <li><strong>Mark</strong> a task as completed.</li>
+  <li><strong>Delete</strong> a task if no longer needed.</li>
+  <li><strong>Exit</strong> the program when done.</li>
+</ul>
+
+
 
 <h2>🛠️ Technologies Used</h2>
 <ul>
-    <li><strong>C++</strong></li>
-    <li><strong>STL (Standard Template Library)</strong></li>
-    <ul>
-        <li>📌 <code>vector</code> for dynamic task storage</li>
-        <li>📌 <code>algorithm</code> for efficient operations</li>
-    </ul>
+  <li><strong>C++</strong> (Standard Library: <code>&lt;iostream&gt;</code>, <code>&lt;vector&gt;</code>, <code>&lt;algorithm&gt;</code>)</li>
 </ul>
 
-<h2>📥 Installation & Compilation</h2>
-
-<h3>1️⃣ Clone the repository</h3>
-<pre>
-<code>git clone https://github.com/yourusername/task-manager-cpp.git</code>
-</pre>
-
-<h3>2️⃣ Compile the program</h3>
-<pre>
-<code>g++ task_manager.cpp -o task_manager</code>
-</pre>
-
-<h3>3️⃣ Run the executable</h3>
-<pre>
-<code>./task_manager</code>
-</pre>
-
-<h2>🎯 Usage</h2>
-<p>After running the program, you will see a menu:</p>
-<pre>
-1. Enter new Task
-2. Display tasks
-3. Mark Task as completed
-4. Delete Task
-5. Exit
-</pre>
-<p>Simply enter the corresponding number to perform the action.</p>
-
 <h2>📜 License</h2>
-<p>This project is licensed under the <strong>MIT License</strong>.</p>
+<p>This project is open-source under the <strong>MIT License</strong>.</p>
 
-<h2>👨‍💻 Contributing</h2>
-<p>Feel free to fork this repository and submit pull requests for improvements!</p>
+<hr>
 
-</body>
-</html>
+<p>👨‍💻 <strong>Developed by <a href="https://github.com/Mayank-tech69">Mayank Choubey</a></strong></p>
+<p>Feel free to contribute or suggest improvements! 🚀</p>
